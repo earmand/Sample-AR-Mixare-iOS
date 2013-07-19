@@ -12,5 +12,20 @@ Steps to reproduce the sample in your own project
 ====================
 
 1.	Create a new project on Xcode Single View Application. I recommend without Storyboards and with ARC.
-2.	Import all the necessary classes from the Mixare project:
-	-
+2.	Import all the necessary classes and images from the Mixare project:
+	-AugmentedGeoViewController (View)
+	-AugmentedViewController (View)
+	-CameraController (View)
+	-MarketView (View)
+	-Radar (radarView)
+	-RadarViewPortView (radarView)
+	-PopUpWebView (guiControllers)
+	-PressHud (guiControllers)
+	-PullRefreshTableViewController (guiControllers)
+	-WebViewController (guiControllers)
+	-MapViewAnnotation (reality)
+	-PoiItem (reality)
+	-DataSource (data)
+	-Position (data)
+	-Images
+3.	Open the Mixare project on Xcode. We copy the method "initControls" from MixareAppDelegate to our AppDelegate
