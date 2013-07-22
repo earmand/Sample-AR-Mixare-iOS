@@ -75,4 +75,8 @@ Steps to reproduce the sample in your own project
 
 	-CoreLocation
 
-8.	
+8.	In our AppDelegate.h we change all about the class ViewController with AugmentedGeoViewControllers (the import and the object). We import "CoreLocation/CoreLocation.h" and create a new object:
+@property (strong, nonatomic) CLLocationManager *locationManager;
+
+9.	In our AppDelegate.m we remove the calls to the DataSource and we put the right names to the vars (for example _augViewController).
+
