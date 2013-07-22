@@ -11,7 +11,8 @@ This sample was created by [Javier González Pérez](http://www.linkedin.com/pub
 Steps to reproduce the sample in your own project
 ====================
 
-1.	Create a new project on Xcode Single View Application. I recommend without Storyboards and with ARC.
+1.	Create a new project on Xcode Single View Application. I recommend without Storyboards and with ARC
+
 2.	Import all the necessary classes and images from the Mixare project:
 
 	-AugmentedGeoViewController (View)
@@ -44,4 +45,34 @@ Steps to reproduce the sample in your own project
 
 	-Images
 
-3.	Open the Mixare project on Xcode. We copy the method "initControls" from MixareAppDelegate to our AppDelegate
+3.	Open the Mixare project on Xcode. We need copy the method "initControls" from MixareAppDelegate.m to our AppDelegate.m
+
+4.	Search the method "openARView" on MixareAppDelegate.m and copy the content on our init method on our AppDelegate.m.
+
+5.	Import on our AppDelegate
+
+	-AugmentedGeoViewController.h
+	
+	-PoiItem.h
+
+	-Position.h
+
+6.	Remove from our AppDelegate the import of ViewController (we will not use that class)
+
+7.	Add the frameworks:
+
+	-AvFundation
+	
+	-MapKit
+
+	-QuartzCore
+
+	-CoreMotion
+
+	-CoreMedia
+
+	-CoreVideo
+
+	-CoreLocation
+
+8.	
