@@ -19,16 +19,29 @@ Steps to reproduce the sample in your own project
 	-AugmentedViewController (View)
 
 	-CameraController (View)
+
 	-MarketView (View)
+
 	-Radar (radarView)
+
 	-RadarViewPortView (radarView)
+
 	-PopUpWebView (guiControllers)
+
 	-PressHud (guiControllers)
+
 	-PullRefreshTableViewController (guiControllers)
+
 	-WebViewController (guiControllers)
+
 	-MapViewAnnotation (reality)
+
 	-PoiItem (reality)
+
 	-DataSource (data)
+
 	-Position (data)
+
 	-Images
+
 3.	Open the Mixare project on Xcode. We copy the method "initControls" from MixareAppDelegate to our AppDelegate
