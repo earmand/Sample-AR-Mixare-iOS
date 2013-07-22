@@ -13,8 +13,11 @@ Steps to reproduce the sample in your own project
 
 1.	Create a new project on Xcode Single View Application. I recommend without Storyboards and with ARC.
 2.	Import all the necessary classes and images from the Mixare project:
+
 	-AugmentedGeoViewController (View)
+
 	-AugmentedViewController (View)
+
 	-CameraController (View)
 	-MarketView (View)
 	-Radar (radarView)
