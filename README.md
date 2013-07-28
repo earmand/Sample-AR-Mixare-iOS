@@ -80,3 +80,20 @@ Steps to reproduce the sample in your own project
 
 9.	In our AppDelegate.m we remove the calls to the DataSource and we put the right names to the vars (for example _augViewController).
 
+10.	Launch the App in the simulator or in a real device in order to search all the compilation problems:
+
+	-Remove the imports of Resources.h
+	
+	-Change the call of Resources to Main bundle: [[Resources getInstance] bundle] to [NSBundle mainBundle]
+
+	-Change the imports MixareAppDelegate.h to AppDelegate.h
+
+11.	In our init method we have to init the locationManager: _locationManager = [[CLLocationManager alloc] init];
+
+12.	We make public the method addCoordinate of the class AugmentedViewController adding them to the AugmentedViewController.h
+
+13.	We create a new method addPoisToARView on the AppDelegate.m to add the lois to the view.
+
+14.	We call the method addPoisToARView in the init of our app after instance _augViewController.
+
+15.	In the method addPoisToARView we create the POIs to send them to the _augViewController using the method addCoordinate.
